@@ -216,7 +216,7 @@
 
 $color-brand-primary:             #7FB827;
 $color-brand-secondary:           #fab02d;
-$color-brand-tertiary:            #58595b;
+$color-brand-tertiary:            #000000;
 $color-brand-quaternary:          #E3F8FF;
 
 @include cc($color-brand-primary, 'color-brand-primary');
@@ -273,6 +273,20 @@ $color-link-alt-visited:     mix($color-link-alt, #fff, 50%);
 @include cc($color-link-alt-hover, 'color-link-alt-hover');
 @include cc($color-link-alt-visited, 'color-link-alt-visited');
 
+
+/*
+ * Main Menu Links
+ */
+
+$menu-color-link:                 #ffffff;
+$menu-color-link-hover:           shade($menu-color-link, 10%);
+$menu-color-link-focus:           shade($menu-color-link, 20%);
+$menu-color-link-visited:         tint($menu-color-link, 20%);
+
+@include cc($color-link, 'color-link');
+@include cc($color-link-focus, 'color-link-focus');
+@include cc($color-link-hover, 'color-link-hover');
+@include cc($color-link-visited, 'color-link-visited');
 
 /*
  * Shades of grey
