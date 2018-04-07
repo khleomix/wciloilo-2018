@@ -147,6 +147,7 @@
   @include list-reset();
   @include clearfix();
 
+  background-color: $color-brand-tertiary;
   text-align: center;
 
   @include breakpoint(small) {
