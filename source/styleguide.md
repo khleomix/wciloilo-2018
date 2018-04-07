@@ -1,4 +1,4 @@
-# WordCamp [Name] [Year]
+# WordCamp Iloilo 2018
 
 Style guide for the WordCamp Iloilo 2018 theme
 
