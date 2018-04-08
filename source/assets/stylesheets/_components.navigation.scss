@@ -153,6 +153,10 @@
   background-color: rgba($color-brand-quaternary, .9);
   text-align: center;
 
+  &#menu-home {
+    background-color: transparent;
+  }
+
   @include breakpoint(small) {
 
     display: block;
