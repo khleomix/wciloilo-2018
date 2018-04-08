@@ -21,6 +21,12 @@
  * Header Widgets
  */
 #header-widgets .widget {
+
+  > * {
+
+    position: relative;
+
+  }
   &:before {
 
     position: absolute;
@@ -34,6 +40,7 @@
     content: "";
 
   }
+
 }
 
 /*
