@@ -21,7 +21,7 @@
 
   margin-left: auto;
   margin-right: auto;
-  margin-top: -95px;
+  margin-top: -120px;
   padding-bottom: $unit-s;
 
   text-align: center;
@@ -81,11 +81,11 @@
   &:focus,
   &:active {
 
-    background-color: $color-link-hover;
+    background-color: $color-brand-secondary;
 
     &:after {
 
-      background-color: $color-link-hover;
+      background-color: $color-brand-secondary;
     }
 
   }
