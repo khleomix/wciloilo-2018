@@ -33,7 +33,7 @@
   color: $color-link;
 
   border-radius: 0;
-  background-color: rgba($color-brand-tertiary, .9);
+  background-color: rgba($color-brand-quaternary, .9);
 
   cursor: pointer;
 
@@ -110,7 +110,10 @@
 
 .main-navigation {
 
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 
   &:before {
 
@@ -120,7 +123,7 @@
     right: 0;
 
     height: rem(2);
-    background-color: $color-link;
+    background-color: rgba($color-brand-quaternary, .9);
 
     content: "";
 
@@ -128,7 +131,7 @@
 
   @include breakpoint(to-small) {
 
-    background-color: $color-brand-tertiary;
+    background-color: rgba($color-brand-quaternary, .9);
 
 
 
@@ -147,7 +150,7 @@
   @include list-reset();
   @include clearfix();
 
-  background-color: $color-brand-tertiary;
+  background-color: rgba($color-brand-quaternary, .9);
   text-align: center;
 
   @include breakpoint(small) {
