@@ -451,33 +451,33 @@
     text-transform: uppercase;
     position: relative;
   }
-
-  &:before{
-    font-family: 'FontAwesome';
-    font-size: 100px;
-    color: #00B1FF;
-    line-height: 100px;
-    position: relative;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    -webkit-transition: all 400ms linear;
-    -moz-transition: all 400ms linear;
-    -o-transition: all 400ms linear;
-    -ms-transition: all 400ms linear;
-    transition: all 400ms linear;
-    margin: 30px auto;
-    display: block;
-  }
-
-  li.menu-tickets:before {
-    content: "\f145";
-  }
-  li.menu-schedule:before {
-    content: "\f073";
-  }
-  li.menu-location:before {
-    content: "\f14e";
-  }
-
 }
+
+#menu-home li:before{
+  font-family: 'FontAwesome';
+  font-size: 100px;
+  color: #00B1FF;
+  line-height: 100px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  -webkit-transition: all 400ms linear;
+  -moz-transition: all 400ms linear;
+  -o-transition: all 400ms linear;
+  -ms-transition: all 400ms linear;
+  transition: all 400ms linear;
+  margin: 30px auto;
+  display: block;
+}
+
+#menu-home li.menu-tickets:before {
+  content: "\f145";
+}
+#menu-home li.menu-schedule:before {
+  content: "\f073";
+}
+#menu-home li.menu-location:before {
+  content: "\f14e";
+}
+
