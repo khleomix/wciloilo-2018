@@ -249,7 +249,7 @@ $color-text-strong-invert:        rgba(255,255,255,.9);
  */
 
 $color-link:                 $color-brand-quaternary;
-$color-link-hover:           $color-brand-secondary;
+$color-link-hover:           $color-brand-tertiary;
 $color-link-focus:           shade($color-link-hover, 20%);
 $color-link-visited:         tint($color-link-hover, 20%);
 
