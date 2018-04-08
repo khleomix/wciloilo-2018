@@ -214,10 +214,10 @@
 
 /* Brand */
 
-$color-brand-primary:             #0578C7;
-$color-brand-secondary:           #CE190A;
-$color-brand-tertiary:            #091528;
-$color-brand-quaternary:          #622024;
+$color-brand-primary:             #56FF2F;
+$color-brand-secondary:           #FA0061;
+$color-brand-tertiary:            #00B1FF;
+$color-brand-quaternary:          #000000;
 
 @include cc($color-brand-primary, 'color-brand-primary');
 @include cc($color-brand-secondary, 'color-brand-secondary');
