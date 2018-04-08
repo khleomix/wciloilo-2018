@@ -53,13 +53,13 @@
   a {
 
     display: block;
-    color: $color-link-hover;
+    color: $color-link-alt;
 
     &:hover,
     &:focus,
     &:active {
 
-      color: $color-link;
+      color: $color-link-alt-hover;
       text-decoration: none;
 
     }
