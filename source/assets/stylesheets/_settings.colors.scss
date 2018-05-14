@@ -214,9 +214,9 @@
 
 /* Brand */
 
-$color-brand-primary:             #56FF2F;
-$color-brand-secondary:           #FA0061;
-$color-brand-tertiary:            #00B1FF;
+$color-brand-primary:             #fac112;
+$color-brand-secondary:           #ff2a92;
+$color-brand-tertiary:            #ade3fd;
 $color-brand-quaternary:          #000000;
 
 @include cc($color-brand-primary, 'color-brand-primary');

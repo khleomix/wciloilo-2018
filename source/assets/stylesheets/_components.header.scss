@@ -11,20 +11,9 @@
 
 .site-header {
 
+  background-color: $color-brand-tertiary;
+  padding-top: 50px;
   position: relative;
-
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: fixed;
-  background-image: $site-hero-path-small;
-
-  @include breakpoint(medium) {
-
-    background-image: $site-hero-path-large;
-    background-position: 50% 50%;
-    background-size: cover;
-
-  }
 
   @include transition-fast();
 
@@ -36,10 +25,15 @@
     bottom: 0;
     right: 0;
 
-    background-color: rgba($site-hero-background, $site-hero-overlay);
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+    background-size: fixed;
+    background-image: $cloud-path;
 
     content: "";
 
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
   }
 
   > * {
@@ -47,6 +41,23 @@
     position: relative;
     z-index: $z-index-header;
 
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
   }
 
 }

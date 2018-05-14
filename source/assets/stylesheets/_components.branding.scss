@@ -17,11 +17,6 @@
  * <header id="masthead" class="site-header" role="banner"> ... </header>
  */
 
-.site-header {
-
-  background-color: $color-brand-tertiary;
-
-}
 
 .site-header .site-branding {
 
@@ -52,7 +47,8 @@
 
   a {
 
-    display: none;
+    display: block;
+    font-size: 0;
     color: $color-link-alt;
 
     &:hover,
@@ -73,7 +69,7 @@
     height: ($site-logo-height * $site-logo-proportion);
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: $unit-s;
+    margin-bottom: -35px;
 
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -81,26 +77,6 @@
     background-size: 100%;
 
     content: "";
-
-    animation: bounce 1s infinite alternate;
-    -webkit-animation: bounce 1s infinite alternate;
-  }
-
-  @keyframes bounce {
-    from {
-      transform: translateY(0px);
-    }
-    to {
-      transform: translateY(-15px);
-    }
-  }
-  @-webkit-keyframes bounce {
-    from {
-      transform: translateY(0px);
-    }
-    to {
-      transform: translateY(-15px);
-    }
   }
 
   a:after {

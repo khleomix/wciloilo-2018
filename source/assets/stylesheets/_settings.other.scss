@@ -47,11 +47,19 @@ $site-logo-path:                url('https://2018.iloilo.wordcamp.org/files/2018
 /* Hero */
 $site-hero-path-width:          1279px; // Width of the image/element
 $site-hero-path-height:         510px; // Height of the image/element
-$site-hero-path-proportion:     .75; // Change the logo proportion in header e.g. .5 will reduce the logo size by half.
+$site-hero-path-proportion:     .65; // Change the logo proportion in header e.g. .5 will reduce the logo size by half.
 $site-hero-path-small:          url('https://2018.iloilo.wordcamp.org/files/2018/05/wcbanner.png'); // Background image
 $site-hero-path-large:          url('https://2018.iloilo.wordcamp.org/files/2018/05/wcbanner.png'); // Background image
 $site-hero-background:          tint($color-brand-secondary, 90%); // Hero color background
 $site-hero-overlay:             1; // Image overlay color opacity
+
+/* Clouds */
+$cloud-width:          523px; // Width of the image/element
+$cloud-height:         136px; // Height of the image/element
+$cloud-proportion:     .65; // Change the logo proportion in header e.g. .5 will reduce the logo size by half.
+$cloud-path:          url('https://2018.iloilo.wordcamp.org/files/2018/05/clouds.png'); // Background image
+
+
 
 /* Media queries */
 $extra-small-value:             24em; // 384px
