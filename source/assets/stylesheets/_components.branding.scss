@@ -66,7 +66,7 @@
 
   }
 
-  :before {
+  a:before {
 
     display: block;
     width: ($site-logo-width * $site-logo-proportion);
@@ -103,7 +103,7 @@
     }
   }
 
-  :after {
+  a:after {
 
     display: block;
     width: ($site-hero-path-width * $site-hero-path-proportion);
