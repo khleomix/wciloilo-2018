@@ -12,10 +12,12 @@
 .site-header {
 
   background-color: $color-brand-tertiary;
-  height: 100vh;
-
-  padding-top: 20vh;
   position: relative;
+
+  .home & {
+    height: 100vh;
+    padding-top: 20vh;
+  }
 
   @include transition-fast();
 
