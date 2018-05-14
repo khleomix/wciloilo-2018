@@ -12,7 +12,9 @@
 .site-header {
 
   background-color: $color-brand-tertiary;
-  padding-top: 50px;
+  height: 100vh;
+
+  padding-top: 20vh;
   position: relative;
 
   @include transition-fast();
@@ -20,7 +22,7 @@
   &:before {
 
     position: absolute;
-    top: 0;
+    top: 10vh;
     left: 0;
     bottom: 0;
     right: 0;
