@@ -52,7 +52,7 @@
 
   a {
 
-    display: block;
+    display: none;
     color: $color-link-alt;
 
     &:hover,
@@ -66,7 +66,7 @@
 
   }
 
-  a:before {
+  :before {
 
     display: block;
     width: ($site-logo-width * $site-logo-proportion);
