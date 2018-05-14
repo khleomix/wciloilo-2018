@@ -45,6 +45,9 @@ $site-logo-path:                url('https://2018.iloilo.wordcamp.org/files/2018
 // $site-logo-path:                url('https://2017.europe.wordcamp.org/files/2016/11/logo-wceu17-dark-icon.png'); // Logo image
 
 /* Hero */
+$site-hero-path-width:          1279px; // Width of the image/element
+$site-hero-path-height:         510px; // Height of the image/element
+$site-hero-path-proportion:     .75; // Change the logo proportion in header e.g. .5 will reduce the logo size by half.
 $site-hero-path-small:          url('https://2018.iloilo.wordcamp.org/files/2018/05/wcbanner.png'); // Background image
 $site-hero-path-large:          url('https://2018.iloilo.wordcamp.org/files/2018/05/wcbanner.png'); // Background image
 $site-hero-background:          tint($color-brand-secondary, 90%); // Hero color background

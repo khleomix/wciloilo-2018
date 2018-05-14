@@ -103,6 +103,23 @@
     }
   }
 
+  :after {
+
+    display: block;
+    width: ($site-hero-path-width * $site-hero-path-proportion);
+    height: ($site-hero-path-height * $site-hero-path-proportion);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $unit-s;
+
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: $site-hero-path-large;
+    background-size: 100%;
+
+    content: "";
+  }
+
 }
 
 .site-description {
