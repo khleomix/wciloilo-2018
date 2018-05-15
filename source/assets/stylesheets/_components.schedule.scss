@@ -11,9 +11,13 @@
 
 .wcpt-schedule {
 
-  border: rem(4) solid $color-brand-secondary;
+  border: rem(2) solid $color-brand-quaternary;
   margin-bottom: $unit-default;
   background-color: #fff;
+
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
 
   td,
   th {
@@ -26,9 +30,11 @@
   .wcpt-col-time,
   .wcpt-col-track {
 
+    font-size: ms(1);
+
     border-top: none;
-    background-color: $color-brand-tertiary;
-    color: $color-text-strong-invert;
+    background-color: $color-brand-primary;
+    color: $color-text-strong;
 
   }
 
@@ -80,6 +86,15 @@
     line-height: ms(1);
     font-weight: $bold;
 
+    &:hover,
+    &:focus,
+    &:active {
+
+      color: $color-brand-secondary;
+      text-decoration: none;
+
+    }
+
   }
 
   .global-session {
@@ -100,6 +115,15 @@
         text-transform: uppercase;
         color: $color-text-strong;
 
+        &:hover,
+        &:focus,
+        &:active {
+
+          color: $color-brand-secondary;
+          text-decoration: none;
+
+        }
+
       }
 
     }
@@ -113,6 +137,15 @@
     a {
 
       color: $color-text;
+
+      &:hover,
+      &:focus,
+      &:active {
+
+        color: $color-brand-secondary;
+        text-decoration: none;
+
+      }
 
     }
 

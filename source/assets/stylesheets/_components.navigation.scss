@@ -184,7 +184,7 @@
 
   font-family: $font-body;
   font-size: ms(0);
-  font-weight: 400;
+  font-weight: $regular;
   text-align: left;
 
   @include breakpoint(small) {
