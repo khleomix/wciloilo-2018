@@ -40,13 +40,13 @@
   font-size: ms(0);
   line-height: ms(2);
   text-align: center;
-  color: $color-text;
+  color: $color-text-strong;
   font-family: $font-brand-primary;
   font-weight: $bold;
   text-decoration: none;
 
   /* Visual */
-  background-color: $color-button-regular;
+  background-color: $color-button-regular-hover;
   border: solid 2px $color-brand-quaternary;
   outline: none;
   box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
@@ -60,8 +60,8 @@
   &:focus,
   &:active {
 
-    color: $color-text-strong;
-    background-color: $color-button-regular-hover;
+    color: $color-text-strong-invert;
+    background-color: $color-button-regular;
     text-decoration: none;
     box-shadow: 2px 8px 4px -6px hsla(0,0%,0%,.3);
 
