@@ -26,6 +26,17 @@
 
   text-align: center;
 
+  a {
+    color: $color-brand-secondary;
+
+    &:hover,
+    &:focus,
+    &:active {
+    	color: $color-brand-primary;
+    }
+
+  }
+
 }
 
 .site-info-generator {
@@ -52,7 +63,7 @@
   background-image: url('https://europe.wordcamp.org/2016/files/2015/11/wordpress-footer-logo.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-color: $color-brand-quinary;
+  background-color: $color-brand-secondary;
   background-size: 40px;
   border-radius: 50%;
 
@@ -81,11 +92,11 @@
   &:focus,
   &:active {
 
-    background-color: $color-brand-secondary;
+    background-color: $color-brand-quinary;
 
     &:after {
 
-      background-color: $color-brand-secondary;
+      background-color: $color-brand-quinary;
     }
 
   }
