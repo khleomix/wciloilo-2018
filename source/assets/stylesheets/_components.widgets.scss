@@ -8,6 +8,10 @@
   position: relative;
   max-width: $container-max-width;
 
+  #header-widget-1 & {
+  	max-width: 100%;
+  	padding: 0;
+  }
 }
 
 .widget-title {
