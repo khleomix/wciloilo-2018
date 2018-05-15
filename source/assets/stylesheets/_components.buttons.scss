@@ -47,8 +47,10 @@
 
   /* Visual */
   background-color: $color-button-regular;
-  border-radius: $border-radius-small;
-  border-color: $color-button-regular;
+  border:solid 2px $color-brand-quaternary;
+  outline:none;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 
   /* Misc */
   cursor: pointer;
@@ -61,20 +63,24 @@
     color: $color-text-strong;
     background-color: $color-button-regular-hover;
     text-decoration: none;
+    box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
 
   }
 
   @include breakpoint(medium) {
 
     font-size: ms(0);
+    font-weight: 300;
     line-height: ms(2);
+    font-transform: uppercase;
 
   }
 
   &.button--primary {
 
-    color: $color-text-invert;
-    background-color: $color-button-primary;
+    color: #fff;
+    background-color: $color-button-secondary;
+    border:solid 2px #41403E;
 
     &:hover,
     &:focus,
