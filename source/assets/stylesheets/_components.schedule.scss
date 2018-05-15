@@ -30,7 +30,7 @@
   .wcpt-col-time,
   .wcpt-col-track {
 
-    font-size: ms(1);
+    font-size: ms(0);
 
     border-top: none;
     background-color: $color-brand-primary;
@@ -162,7 +162,7 @@
     &.morning-break,
     &.afternoon-break {
 
-      background-color: $color-brand-secondary;
+      background-color: $color-brand-quinary;
 
     }
 
@@ -197,7 +197,7 @@
 
       margin-bottom: $unit-s;
       display: block;
-      border: rem(4) solid $color-brand-secondary;
+      border: rem(2) solid $color-brand-secondary;
       // border: 1px solid $color-border-normal;
 
     }
