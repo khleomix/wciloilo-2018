@@ -47,8 +47,8 @@
 
   /* Visual */
   background-color: $color-button-regular;
-  border:solid 2px $color-brand-quaternary;
-  outline:none;
+  border: solid 2px $color-brand-quaternary;
+  outline: none;
   box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 
@@ -63,7 +63,7 @@
     color: $color-text-strong;
     background-color: $color-button-regular-hover;
     text-decoration: none;
-    box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+    box-shadow: 2px 8px 4px -6px hsla(0,0%,0%,.3);
 
   }
 
