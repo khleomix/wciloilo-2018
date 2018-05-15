@@ -31,14 +31,13 @@
     right: 0;
 
     background-repeat: no-repeat;
-    background-position: 50% 5%;
     background-image: $cloud-path;
 
     content: "";
 
-    -webkit-animation: animateCloud 25s linear infinite;
-    -moz-animation: animateCloud 25s linear infinite;
-    animation: animateCloud 25s linear infinite;
+    -webkit-animation: animateCloud 35s linear infinite;
+    -moz-animation: animateCloud 35s linear infinite;
+    animation: animateCloud 35s linear infinite;
     
     -webkit-transform: scale(0.65);
     -moz-transform: scale(0.65);
