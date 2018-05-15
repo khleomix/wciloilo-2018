@@ -48,7 +48,7 @@
   /* Visual */
   background-color: $color-button-regular;
   border-radius: $border-radius-small;
-  border-color: transparent;
+  border-color: $color-button-regular;
 
   /* Misc */
   cursor: pointer;
