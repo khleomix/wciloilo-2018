@@ -54,12 +54,16 @@ $site-hero-background:          tint($color-brand-secondary, 90%); // Hero color
 $site-hero-overlay:             1; // Image overlay color opacity
 
 /* Clouds */
-$cloud-width:          523px; // Width of the image/element
-$cloud-height:         136px; // Height of the image/element
+$cloud-width:          1072px; // Width of the image/element
+$cloud-height:         354px; // Height of the image/element
 $cloud-proportion:     .65; // Change the logo proportion in header e.g. .5 will reduce the logo size by half.
 $cloud-path:          url('https://2018.iloilo.wordcamp.org/files/2018/05/clouds.png'); // Background image
 
-
+/* Birds */
+$bird-width:          1050px; // Width of the image/element
+$bird-height:         144px; // Height of the image/element
+$bird-proportion:     .65; // Change the logo proportion in header e.g. .5 will reduce the logo size by half.
+$bird-path:          url('https://2018.iloilo.wordcamp.org/files/2018/05/birds.png'); // Background image
 
 /* Media queries */
 $extra-small-value:             24em; // 384px
