@@ -286,6 +286,9 @@
 
     margin-right: 10px;
     content: '[';
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    transform: translateX(0);
 
   }
 
@@ -293,8 +296,12 @@
 
     margin-left: 10px;
     content: ']';
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    transform: translateX(0);
 
   }
+
 
 }
 
