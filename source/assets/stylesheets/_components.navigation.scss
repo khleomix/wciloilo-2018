@@ -272,15 +272,20 @@
 
 .current-menu-item > a {
 
-  color: $color-text-strong;
+  color: $color-link-alt;
+
+  &:before,
+  &:after {
+
+    display: inline-block;
+    opacity: 1;
+
+  }
 
   &:before {
 
     margin-right: 10px;
     content: '[';
-    -webkit-transform: translateX(20px);
-    -moz-transform: translateX(20px);
-    transform: translateX(20px);
 
   }
 
@@ -288,9 +293,6 @@
 
     margin-left: 10px;
     content: ']';
-    -webkit-transform: translateX(-20px);
-    -moz-transform: translateX(-20px);
-    transform: translateX(-20px);
 
   }
 
