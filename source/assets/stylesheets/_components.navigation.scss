@@ -115,6 +115,8 @@
   left: 0;
   right: 0;
 
+  z-index: 1000;
+
   &:before {
 
     position: absolute;
@@ -123,17 +125,12 @@
     right: 0;
 
     height: rem(2);
-    background-color: rgba($color-brand-quaternary, .9);
 
     content: "";
 
   }
 
   @include breakpoint(to-small) {
-
-    background-color: rgba($color-brand-quaternary, .9);
-
-
 
     &.toggled-on .menu {
 
@@ -150,7 +147,6 @@
   @include list-reset();
   @include clearfix();
 
-  background-color: rgba($color-brand-quaternary, .9);
   text-align: center;
 
   @include breakpoint(small) {
@@ -160,8 +156,6 @@
   }
 
   @include breakpoint(to-small) {
-
-    border-top: 1px solid rgba(255,255,255,.2);
 
     display: none;
 
@@ -215,7 +209,6 @@
   &.focus {
 
     color: $color-text-strong;
-    background-color: $color-brand-tertiary;
 
   }
 
@@ -236,7 +229,6 @@
 .current-menu-item > a {
 
   color: $color-text-strong;
-  background-color: $color-brand-tertiary;
 
 }
 
@@ -245,8 +237,6 @@
  */
 
 .menu-item-has-children {
-
-  background-color: rgba($color-brand-tertiary, .6);
 
   .dropdown-toggle {
 
@@ -271,7 +261,7 @@
 
         vertical-align: middle;
 
-        border-top-color: $color-link;
+        border-top-color: $color-link-alt;
 
         content: "";
 
@@ -290,8 +280,7 @@
     &:hover > a,
     &.focus > a {
 
-      color: $color-text-strong;
-      background-color: $color-link;
+      color: $color-link-alt;
 
       &:after {
 
@@ -358,11 +347,9 @@
     position: absolute;
     top: 100%;
     left: -999em;
-    z-index: $z-index-navigation-submenu;
+    z-index: 1000;
 
     min-width: rem(260);
-
-    background-color: $color-link;
 
     .menu-item {
 
