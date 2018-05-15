@@ -27,12 +27,13 @@
   text-align: center;
 
   a {
-    color: $color-brand-secondary;
+    color: $color-brand-quinary;
 
     &:hover,
     &:focus,
     &:active {
-    	color: $color-brand-quinary;
+      color: $color-brand-secondary;
+      text-decoration: none;
     }
 
   }
@@ -41,7 +42,7 @@
 
 .site-info-generator {
 
-  @include visually-hidden();
+  //@include visually-hidden();
 
 }
 
