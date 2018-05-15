@@ -67,7 +67,8 @@
   background-repeat: no-repeat;
   background-color: $color-brand-secondary;
   background-size: 40px;
-  border-radius: 50%;
+  border: solid 2px $color-brand-quaternary;
+  border-radius: 225px 225px 225px 255px/225px 225px 220px 250px;
 
   transition: all .1s ease;
 
