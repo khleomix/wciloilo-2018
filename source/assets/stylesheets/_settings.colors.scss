@@ -214,15 +214,17 @@
 
 /* Brand */
 
-$color-brand-primary:             #fac112;
-$color-brand-secondary:           #ff2a92;
+$color-brand-primary:             #f7b90f;
+$color-brand-secondary:           #d80065;
 $color-brand-tertiary:            #ade3fd;
-$color-brand-quaternary:          #000000;
+$color-brand-quaternary:          #2c2c2c;
+$color-brand-quinary:             #afc2c3;
 
 @include cc($color-brand-primary, 'color-brand-primary');
 @include cc($color-brand-secondary, 'color-brand-secondary');
 @include cc($color-brand-tertiary, 'color-brand-tertiary');
 @include cc($color-brand-quaternary, 'color-brand-quaternary');
+@include cc($color-brand-quinary, 'color-brand-quinary');
 
 
 /*
