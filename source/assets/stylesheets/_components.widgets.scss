@@ -62,7 +62,9 @@
     right: -1000px;
 
     background-color: $color-brand-primary;
-
+    border-radius: 255px 255px 225px 255px/255px 225px 15px 255px;
+    border:solid 2px $color-brand-quaternary;
+    
     content: "";
 
   }
