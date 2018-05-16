@@ -12,6 +12,9 @@
 .posts-navigation,
 .post-navigation {
 
+  margin-bottom: $unit-s;
+  margin-top: $unit-s;
+
   @include clearfix();
 
   .screen-reader-text {
