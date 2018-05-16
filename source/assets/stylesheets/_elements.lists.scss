@@ -57,7 +57,11 @@ ol {
 
 ul {
 
-  margin-bottom: rem(24);
+  #primary & {
+   
+    margin-bottom: rem(24);
+  
+  }
 
 }
 
