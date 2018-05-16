@@ -11,7 +11,7 @@
   justify-content: center;
   min-height: 80vh;
   background-color: transparent;
-  padding: 20vh 2rem 0 2rem;
+  padding: 30vh 2rem 0 2rem;
 }
 
 .bird {
@@ -27,7 +27,7 @@
 
   &--one {
     animation-duration: 1s;
-    animation-delay: -0.5s;		
+    animation-delay: -0.5s;
   }
 
   &--two {
@@ -49,7 +49,7 @@
 
 .bird-container {
   position: absolute;
-  top: 20%;
+  top: 20vh;
   left: -7.5vw;
   transform: scale(0);
   will-change: transform;
