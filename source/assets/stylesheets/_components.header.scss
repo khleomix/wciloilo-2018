@@ -41,8 +41,8 @@
     bottom: 0;
     right: 0;
     z-index: 201;
-    width: ($cloud-width * 0.35);
-    height: ($cloud-height * 0.35); 
+    width: ($cloud-width * 0.5);
+    height: ($cloud-height * 0.5); 
 
     background-repeat: no-repeat;
     background-image: $cloud-path;
