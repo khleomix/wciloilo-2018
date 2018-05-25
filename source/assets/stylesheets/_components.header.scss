@@ -41,11 +41,18 @@
     bottom: 0;
     right: 0;
     z-index: 201;
-    width: ($cloud-width * 0.5);
-    height: ($cloud-height * 0.5); 
+    width: ($cloud-width * 0.35);
+    height: ($cloud-height * 0.35); 
 
     background-repeat: no-repeat;
     background-image: $cloud-path;
+
+    @include breakpoint(small) {
+
+      width: ($cloud-width * 0.5);
+      height: ($cloud-height * 0.5);
+
+    }
 
     @include breakpoint(large) {
 
