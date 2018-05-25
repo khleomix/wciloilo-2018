@@ -29,6 +29,10 @@
 
 .entry-title {
 
+  border-bottom: 3px solid #2c2c2c;
+  box-shadow: 20px 38px 34px -26px rgba(0,0,0,.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  
   font-size: ms(2);
   line-height: ms(1);
   text-transform: uppercase;
@@ -52,7 +56,8 @@
 
 .entry-meta {
 
-  margin-bottom: $unit-default;
+  margin-top: $unit-m;
+  margin-bottom: $unit-m;
 
   a {
 
