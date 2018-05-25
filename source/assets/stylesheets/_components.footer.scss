@@ -54,8 +54,8 @@
   position: relative;
 
   display: block;
-  width: rem(100);
-  height: rem(100);
+  width: rem(50);
+  height: rem(50);
   margin: 0 auto;
   margin-bottom: 0;
 
@@ -71,6 +71,12 @@
   border-radius: 225px 225px 225px 255px/225px 225px 220px 250px;
 
   transition: all .1s ease;
+
+  @include breakpoint(small) {
+    width: rem(100);
+    height: rem(100);
+  }
+
 
   &:after {
 
