@@ -77,6 +77,16 @@
     background-size: 100%;
 
     content: "";
+
+    @include breakpoint(small) {
+
+      width: ($site-logo-width * 0.35);
+      height: ($site-logo-height * 0.35);
+
+      background-size: contain;
+
+    }
+
   }
 
   a:after {
@@ -94,6 +104,15 @@
     background-size: 100%;
 
     content: "";
+
+    @include breakpoint(small) {
+
+      width: ($site-hero-path-width * 0.35);
+      height: ($site-hero-path-height * 0.35);
+
+      background-size: contain;
+
+    }
   }
 
 }
