@@ -185,7 +185,7 @@
   0px 14px 10px rgba(0,0,0,0.15),
   0px 24px 2px rgba(0,0,0,0.1),
   0px 34px 30px rgba(0,0,0,0.1);
-  
+
   @include breakpoint(small) {
 
     margin: 0 rem(1);
@@ -194,6 +194,24 @@
     @include font-size(18);
     line-height: em(24,18);
     text-align: center;
+
+  }
+
+  &.tickets a {
+
+    &:before {
+      
+      content: "\f0a4";
+      font-family: "Fontawesome";
+
+    }
+
+    &:after {
+
+      content: "\f0a5";
+      font-family: "Fontawesome";
+
+    }
 
   }
 
