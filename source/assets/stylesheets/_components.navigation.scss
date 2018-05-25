@@ -135,6 +135,9 @@
     &.toggled-on .menu {
 
       display: block;
+      padding: $unit-m 0;
+
+      background-color: $color-brand-tertiary;
 
     }
 
@@ -446,7 +449,7 @@
     z-index: 1000;
 
     background-color: $color-brand-tertiary;
-    
+
     min-width: rem(300);
 
     .menu-item {
