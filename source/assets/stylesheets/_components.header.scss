@@ -19,8 +19,16 @@
   padding-top: 10vh;
 
   .home & {
-    height: 100vh;
-    padding-top: 20vh;
+    height: auto;
+    padding-top: 10vh;
+
+    @include breakpoint(medium) {
+
+      height: 100vh;
+      padding-top: 20vh;    
+    
+    }
+
   }
 
   @include transition-fast();
@@ -33,9 +41,19 @@
     bottom: 0;
     right: 0;
     z-index: 201;
+    width: ($cloud-width * 0.35);
+    height: ($cloud-height * 0.35); 
 
     background-repeat: no-repeat;
     background-image: $cloud-path;
+
+    @include breakpoint(medium) {
+
+      width: ($cloud-width * $cloud-proportion);
+      height: ($cloud-height * $cloud-proportion); 
+
+    }
+
 
     content: "";
 

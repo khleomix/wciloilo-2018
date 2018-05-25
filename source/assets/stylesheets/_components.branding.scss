@@ -78,7 +78,7 @@
 
     content: "";
 
-    @include breakpoint(small) {
+    @include breakpoint(medium) {
 
       width: ($site-logo-width * $site-logo-proportion);
       height: ($site-logo-height * $site-logo-proportion);
@@ -105,7 +105,7 @@
 
     content: "";
 
-    @include breakpoint(small) {
+    @include breakpoint(medium) {
 
       width: ($site-hero-path-width * $site-hero-path-proportion);
       height: ($site-hero-path-height * $site-hero-path-proportion);
