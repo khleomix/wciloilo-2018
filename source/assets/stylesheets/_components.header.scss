@@ -22,7 +22,7 @@
     height: auto;
     padding-top: 10vh;
 
-    @include breakpoint(medium) {
+    @include breakpoint(large) {
 
       height: 100vh;
       padding-top: 20vh;    
@@ -47,7 +47,7 @@
     background-repeat: no-repeat;
     background-image: $cloud-path;
 
-    @include breakpoint(medium) {
+    @include breakpoint(large) {
 
       width: ($cloud-width * $cloud-proportion);
       height: ($cloud-height * $cloud-proportion); 
