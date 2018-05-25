@@ -130,7 +130,7 @@
 
   }
 
-  @include breakpoint(to-medium) {
+  @include breakpoint(to-small) {
 
     &.toggled-on .menu {
 
@@ -149,13 +149,13 @@
 
   text-align: center;
 
-  @include breakpoint(medium) {
+  @include breakpoint(small) {
 
     display: block;
 
   }
 
-  @include breakpoint(to-medium) {
+  @include breakpoint(to-small) {
 
     display: none;
 
@@ -340,9 +340,9 @@
 
   }
 
-  @include breakpoint(medium) {
+  @include breakpoint(small) {
 
-    background-color: $color-brand-tertiary;
+    background-color: transparent;
 
     > a {
 
@@ -415,7 +415,7 @@
 
   }
 
-  @include breakpoint(to-medium) {
+  @include breakpoint(to-small) {
 
     a {
 
@@ -438,7 +438,7 @@
 
   }
 
-  @include breakpoint(medium) {
+  @include breakpoint(small) {
 
     position: absolute;
     top: 100%;
@@ -462,6 +462,18 @@
       padding: rem(10) $unit-s;
 
       color: $color-text;
+
+    }
+
+  }
+
+  @include breakpoint(medium) {
+
+    a {
+
+      padding-left: $unit-m;
+      padding-right: $unit-m;
+      white-space: nowrap;
 
     }
 
