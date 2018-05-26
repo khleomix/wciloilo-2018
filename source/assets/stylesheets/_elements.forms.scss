@@ -142,7 +142,7 @@ select {
   /* Box-model */
   display: block;
   height: rem(60);
-  width: 100%;
+  width: auto;
   padding: rem(7) rem(16);
 
   /* Typography */
@@ -168,5 +168,16 @@ select {
   // background-repeat: no-repeat;
   // background-size: rem(40) rem(40);
   // background-position: right center;
+
+  option {
+
+    /* Visual */
+    background-color: #fff;
+    border: solid 2px $color-brand-quaternary;
+    outline: none;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
+  }
 
 }
