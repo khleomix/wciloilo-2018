@@ -141,10 +141,9 @@ select {
 
   /* Box-model */
   display: block;
-  height: rem(40);
+  height: rem(60);
   width: 100%;
   padding: rem(7) rem(16);
-  border: 1px solid $color-input-regular;
 
   /* Typography */
   font-family: $font-brand-primary;
@@ -155,7 +154,10 @@ select {
 
   /* Visual */
   background-color: #fff;
-  border-radius: $border-radius-small;
+  border: solid 2px $color-brand-quaternary;
+  outline: none;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 
   /* Misc */
   cursor: pointer;
