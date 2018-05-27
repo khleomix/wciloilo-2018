@@ -112,41 +112,22 @@
 
   .sponsor-level-title {
 
+    font-size: ms(2);
+
     border: rem(2) solid $color-brand-quaternary;
     box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 
-    background-color: $color-brand-quinary;
-
-
-    .dinagyang & {
-      
-      background-color: $color-brand-primary;
-
-    }
-
-    .kasadyahan & {
-      
-      background-color: $color-brand-secondary;
-
-      color: #fff;
-
-    }
-
-    .paraw & {
-      
-      background-color: $color-brand-tertiary;
-
-    }
+    margin-top: $unit-l;
 
   }
 
   .sponsor-logo {
-    padding-bottom: $unit-l;
-    max-width: 45%;
-    display: inline-block;
+
+    max-width: 40%;
     float: left;
-    margin: $unit-l;
+    margin: $unit-m $unit-l;
+
   }
 
 }
