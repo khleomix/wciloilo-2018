@@ -126,15 +126,15 @@
 
   .sponsor-logo {
 
-    max-width: 40%;
+    max-width: 90%;
     float: left;
-    margin: $unit-m $unit-l;
+    margin: $unit-xs $unit-s;
 
     @include breakpoint(small) {
 
-      max-width: 90%;
+      max-width: 40%;
       float: left;
-      margin: $unit-xs $unit-s;
+      margin: $unit-m $unit-l;
     
     }
 
