@@ -68,6 +68,16 @@
   margin-bottom: 0;
   padding: $unit-xs;
 
+  .wcorg-sponsor-level-kasadyahan & {
+
+    @include breakpoint(medium) {
+    
+      width: 45%;
+    
+    }
+
+  }
+
   img {
 
     display: block;
