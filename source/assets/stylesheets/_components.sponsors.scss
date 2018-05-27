@@ -24,8 +24,11 @@
 
     padding-top: $unit-default;
     border-top: 1px solid $color-border-weak;
-
-    font-size: ms(0);
+    border: rem(2) solid $color-brand-quaternary;
+    background-color: $color-brand-primary;
+  
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     line-height: ms(2);
     text-align: center;
 
