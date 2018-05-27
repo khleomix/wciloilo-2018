@@ -42,10 +42,13 @@
 
 #primary {
 
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  
+  @include container-center();
+
+  .page-slug-sponsors & {
+
+    max-width: 100%;
+    
+  }
 
   text-align: left;
 
