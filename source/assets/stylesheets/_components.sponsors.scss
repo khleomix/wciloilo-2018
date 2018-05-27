@@ -6,17 +6,19 @@
   > div {
 
     display: flex;
+    margin-bottom: $unit-xl;
+    padding-bottom: $unit-l;
+    overflow: hidden;
 
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
     text-align: center;
 
-    border-left: rem(2) solid $color-brand-quaternary;
-    border-right: rem(2) solid $color-brand-quaternary;
+    border: rem(2) solid $color-brand-quaternary;
     box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
 
     &.wcorg-sponsor-level-dinagyang h2 {
       
@@ -28,12 +30,13 @@
       
       background-color: $color-brand-secondary;
 
+      color: #fff;
+
     }
 
     &.wcorg-sponsor-level-paraw h2 {
       
       background-color: $color-brand-tertiary;
-      color: #fff;
 
     }
 
@@ -45,10 +48,9 @@
 
     margin-bottom: $unit-default;
 
-    border: rem(2) solid $color-brand-quaternary;
+    border-bottom: rem(2) solid $color-brand-quaternary;
 
     background-color: $color-brand-quinary;
-    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     line-height: ms(2);
     text-align: center;
