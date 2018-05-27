@@ -23,7 +23,6 @@
     margin-bottom: $unit-default;
 
     padding-top: $unit-default;
-    border-top: 1px solid $color-border-weak;
     border: rem(2) solid $color-brand-quaternary;
     background-color: $color-brand-primary;
   
@@ -34,39 +33,6 @@
 
     position: relative;
     z-index: 100;
-
-    @include breakpoint(medium) {
-
-      padding-top: 0;
-      border-top: none;
-
-      &:before,
-      &:after {
-
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 100%;
-        transform: translateX(-50%);
-
-        border-top: 1px solid $color-border-weak;
-
-        content: "";
-
-        z-index: -1;
-
-      }
-
-      &:after {
-
-        border-color: #fff;
-        width: 16em;
-
-        z-index: -1;
-
-      }
-
-    }
 
   }
 
