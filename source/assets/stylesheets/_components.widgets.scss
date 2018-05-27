@@ -120,7 +120,7 @@
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 
     margin-top: $unit-l;
-    padding: $unit-m;
+    padding: $unit-s;
 
   }
 
@@ -129,6 +129,14 @@
     max-width: 40%;
     float: left;
     margin: $unit-m $unit-l;
+
+    @include breakpoint(small) {
+
+      max-width: 90%;
+      float: left;
+      margin: $unit-xs $unit-s;
+    
+    }
 
   }
 
