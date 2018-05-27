@@ -89,3 +89,64 @@
   }
 
 }
+
+
+/*
+ * Widget Sponsors
+ *
+ */
+
+ .wcb_widget_sponsors {
+
+  padding: $unit-xl 0;
+
+  clear: both;
+  display: inline-block;
+  
+
+  .widget-title {
+   
+    font-size: ms(3);
+  
+  }
+
+  .sponsor-level-title {
+
+    border: rem(2) solid $color-brand-quaternary;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
+    background-color: $color-brand-quinary;
+
+
+    .dinagyang & {
+      
+      background-color: $color-brand-primary;
+
+    }
+
+    .kasadyahan & {
+      
+      background-color: $color-brand-secondary;
+
+      color: #fff;
+
+    }
+
+    .paraw & {
+      
+      background-color: $color-brand-tertiary;
+
+    }
+
+  }
+
+  .sponsor-logo {
+    padding-bottom: $unit-l;
+    max-width: 45%;
+    display: inline-block;
+    float: left;
+    margin: $unit-l;
+  }
+
+}
