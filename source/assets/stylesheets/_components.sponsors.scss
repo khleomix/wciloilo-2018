@@ -13,6 +13,24 @@
 
     text-align: center;
 
+    &.wcorg-sponsor-level-dinagyang h2 {
+      
+      background-color: $color-brand-primary;
+
+    }
+
+    &.wcorg-sponsor-level-kasadyahan h2 {
+      
+      background-color: $color-brand-secondary;
+
+    }
+
+    &.wcorg-sponsor-level-paraw h2 {
+      
+      background-color: $color-brand-tertiary;
+
+    }
+
   }
 
   > div h2 {
@@ -24,13 +42,7 @@
 
     border: rem(2) solid $color-brand-quaternary;
 
-    &.wcorg-sponsor-level-dinagyang {
-      
-      background-color: $color-brand-primary;
-
-    }
-   
-  
+    background-color: $color-brand-quinary;
     box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     line-height: ms(2);
@@ -40,6 +52,7 @@
     z-index: 100;
 
   }
+  
 
 }
 
