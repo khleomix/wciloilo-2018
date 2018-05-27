@@ -23,7 +23,13 @@
     margin-bottom: $unit-default;
 
     border: rem(2) solid $color-brand-quaternary;
-    background-color: $color-brand-primary;
+
+    .wcorg-sponsor-level-dinagyang & {
+      
+      background-color: $color-brand-primary;
+
+    }
+   
   
     box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
