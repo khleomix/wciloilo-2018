@@ -148,7 +148,7 @@ textarea {
 select {
 
   /* Box-model */
-  display: block;
+  display: inline-block;
   height: rem(60);
   width: 80%;
   padding: rem(7) rem(16);
