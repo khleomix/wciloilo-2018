@@ -120,6 +120,14 @@ textarea {
 }
 
 
+.contact-form input[type=email], 
+.contact-form input[type=text], 
+.contact-form input[type=url] {
+
+  width: 80%;
+  
+}
+
 /*
  * Select
  */
@@ -142,7 +150,7 @@ select {
   /* Box-model */
   display: block;
   height: rem(60);
-  width: auto;
+  width: 80%;
   padding: rem(7) rem(16);
 
   /* Typography */
