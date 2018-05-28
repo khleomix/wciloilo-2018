@@ -347,27 +347,6 @@
 
     background-color: transparent;
 
-    > a {
-
-      &:after {
-
-        position: relative;
-        top: -(rem(2));
-
-        display: inline-block;
-        border: rem(6) solid transparent;
-        margin-left: $unit-xs;
-
-        vertical-align: middle;
-
-        border-top-color: $color-link-alt;
-
-        content: "";
-
-      }
-
-    }
-
     > a .dropdown-toggle {
 
       display: inline-block;
