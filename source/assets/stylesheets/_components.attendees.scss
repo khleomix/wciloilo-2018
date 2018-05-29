@@ -9,7 +9,11 @@
 //
 // Style guide: 6.attendees
 
-#tix-attendees {}
+#tix-attendees {
+
+  margin: $unit-l 0;
+  
+}
 
 .tix-attendee-list {
 
