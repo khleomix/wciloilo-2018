@@ -64,8 +64,8 @@
     margin-top: 0;
     margin-bottom: $unit-default;
     height: auto; // Override
-    min-height: rem(48); // Image size
-    padding-left: rem(64);
+    min-height: rem(96); // Image size
+    padding-left: rem(112);
     padding-right: rem(8);
 
     font-size: ms(-1);
@@ -82,8 +82,8 @@
     z-index: 100;
 
     margin: 0;
-    width: rem(48);
-    height: rem(48);
+    width: rem(96);
+    height: rem(96);
     border: rem(2) solid $color-brand-primary;
 
     background-color: #fff;
@@ -121,7 +121,7 @@
 
     color: $color-text-strong;
     font-weight: $bold;
-    font-size: ms(0, 18px);
+    font-size: ms(0, 16px);
     line-height: ms(1);
 
     background: none;
