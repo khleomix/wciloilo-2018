@@ -110,32 +110,38 @@
   
   }
 
-  .sponsor-level-title {
-
-    font-size: ms(2);
+  .sponsor-level {
+    
     clear: both;
 
-    border: rem(2) solid $color-brand-quaternary;
-    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    .sponsor-level-title {
 
-    margin-top: $unit-l;
-    padding: $unit-s;
+      font-size: ms(2);
+      clear: both;
 
-  }
+      border: rem(2) solid $color-brand-quaternary;
+      box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 
-  .sponsor-logo {
+      margin-top: $unit-l;
+      padding: $unit-s;
 
-    max-width: 90%;
-    float: left;
-    margin: $unit-xs $unit-s;
+    }
 
-    @include breakpoint(small) {
+    .sponsor-logo {
 
-      max-width: 40%;
+      max-width: 90%;
       float: left;
-      margin: $unit-m $unit-l;
-    
+      margin: $unit-xs $unit-s;
+
+      @include breakpoint(small) {
+
+        max-width: 40%;
+        float: left;
+        margin: $unit-m $unit-l;
+      
+      }
+
     }
 
   }
