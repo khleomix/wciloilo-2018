@@ -20,6 +20,17 @@
     padding: 0;
     background-color: transparent;
   }
+
+  .header-widgets-block & {
+
+    text-align: center;
+
+    background-color: transparent;
+    max-width: 100%;
+    padding: 0 $unit-xl $unit-xl $unit-xl;
+
+  }
+
 }
 
 .widget-title {
@@ -102,16 +113,16 @@
 
   clear: both;
   display: inline-block;
-  
+
 
   .widget-title {
-   
+
     font-size: ms(3);
-  
+
   }
 
   .sponsor-level {
-    
+
     clear: both;
 
     .sponsor-level-title {
@@ -139,7 +150,7 @@
         max-width: 40%;
         float: left;
         margin: $unit-m $unit-l;
-      
+
       }
 
     }
