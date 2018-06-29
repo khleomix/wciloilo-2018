@@ -20,7 +20,11 @@
 .wcorg-organizer {
 
   max-width: 40em;
+  width: 45%;
   margin-bottom: $unit-l;
+  padding: 1%;
+
+  float: left;
 
   &:last-child {
 
@@ -55,6 +59,8 @@
     margin: 0;
 
     font-size: ms(0, 16px);
+
+    line-height: 1.15;
 
   }
 
