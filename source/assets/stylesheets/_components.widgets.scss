@@ -145,6 +145,10 @@
       float: left;
       margin: $unit-xs $unit-s;
 
+      &:nth-child(even) {
+        clear: both;
+      }
+
       @include breakpoint(small) {
 
         max-width: 40%;
