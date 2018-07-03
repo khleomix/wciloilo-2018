@@ -159,6 +159,25 @@
 
     }
 
+    &.micro-sponsors .sponsor-logo {
+
+      @include breakpoint(small) {
+
+        max-width: 33%;
+
+      }
+
+      &:nth-child(even) {
+        clear: none;
+      }
+
+      &:nth-child(3n) {
+        clear: both;
+      }
+
+
+    }
+
   }
 
 }
