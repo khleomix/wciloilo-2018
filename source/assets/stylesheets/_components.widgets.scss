@@ -151,30 +151,11 @@
 
       @include breakpoint(small) {
 
-        max-width: 40%;
+        max-width: 46%;
         float: left;
-        margin: $unit-m $unit-l;
+        margin: $unit-m 2%;
 
       }
-
-    }
-
-    &.micro-sponsors .sponsor-logo {
-
-      @include breakpoint(small) {
-
-        max-width: 33%;
-
-      }
-
-      &:nth-child(even) {
-        clear: none;
-      }
-
-      &:nth-child(3n) {
-        clear: both;
-      }
-
 
     }
 
