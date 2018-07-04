@@ -16,8 +16,16 @@
 
 .wcorg-session {
 
-  border-top: 1px solid $color-border-weak;
-  padding: $unit-default 0;
+    display: flex;
+    margin-bottom: $unit-xl;
+    padding-bottom: $unit-l;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border: rem(2) solid $color-brand-quaternary;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 
   .wcorg-session-description {
 
