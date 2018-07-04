@@ -21,13 +21,13 @@
 
 
     &.wcorg-sponsor-level-dinagyang h2 {
-      
+
       background-color: $color-brand-primary;
 
     }
 
     &.wcorg-sponsor-level-kasadyahan h2 {
-      
+
       background-color: $color-brand-secondary;
 
       color: #fff;
@@ -35,7 +35,7 @@
     }
 
     &.wcorg-sponsor-level-paraw h2 {
-      
+
       background-color: $color-brand-tertiary;
 
     }
@@ -59,7 +59,7 @@
     z-index: 100;
 
   }
-  
+
 
 }
 
@@ -71,18 +71,22 @@
   .wcorg-sponsor-level-kasadyahan & {
 
     @include breakpoint(medium) {
-    
+
       width: 45%;
-    
+
     }
 
   }
 
   img {
 
-    display: block;
+    display: none;
     margin: 0 auto 1rem;
     max-height: rem(140);
+
+    &.wp-post-image {
+      display: block;
+    }
 
   }
 
