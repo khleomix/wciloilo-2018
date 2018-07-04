@@ -68,7 +68,8 @@
   margin-bottom: 0;
   padding: $unit-xs;
 
-  .wcorg-sponsor-level-kasadyahan & {
+  .wcorg-sponsor-level-kasadyahan &,
+  .wcorg-sponsor-level-micro-sponsors & {
 
     @include breakpoint(medium) {
 
