@@ -19,8 +19,6 @@
     display: flex;
     margin-bottom: $unit-xl;
     padding-bottom: $unit-l;
-    padding-right: $unit-l;
-    padding-left: $unit-l;
     overflow: hidden;
     flex-wrap: wrap;
     justify-content: center;
@@ -33,7 +31,7 @@
 
       width: 100%;
       margin-bottom: $unit-default;
-      border-bottom: rem(2) solid $color-brand-quaternary;
+      border-bottom: rem(2) solid $color-brand-primary;
       background-color: $color-brand-quinary;
       border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
       line-height: ms(2);
@@ -46,6 +44,7 @@
   .wcorg-session-description {
 
     @include clearfix();
+    padding: $unit-xl;
 
   }
 
