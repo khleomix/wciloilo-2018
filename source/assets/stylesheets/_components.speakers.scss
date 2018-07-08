@@ -46,6 +46,8 @@
 
     @include clearfix();
 
+    padding: $unit-l;
+
     img {
       width: auto;
       max-height: 200px;
