@@ -136,14 +136,43 @@
 
     a {
 
-      color: $color-text;
+      /* Positioning */
+
+      position: relative;
+      /* Box-model */
+
+      display: inline-block;
+      padding: rem(7) rem(16);
+      border: 1px solid $color-button-regular;
+      /* Typography */
+
+      font-size: ms(0);
+      line-height: ms(2);
+      text-align: center;
+      color: $color-text-strong;
+      font-family: $font-brand-primary;
+      font-weight: $bold;
+      text-decoration: none;
+      /* Visual */
+
+      background-color: $color-button-regular-hover;
+      border: solid 2px $color-brand-quaternary;
+      outline: none;
+      box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      /* Misc */
+
+      cursor: pointer;
+      transition: all .1s ease;
 
       &:hover,
       &:focus,
       &:active {
 
-        color: $color-brand-secondary;
+        color: $color-text-strong-invert;
+        background-color: $color-button-regular;
         text-decoration: none;
+        box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, .3);
 
       }
 
