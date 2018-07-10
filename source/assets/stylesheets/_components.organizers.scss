@@ -19,8 +19,8 @@
 
 .wcorg-organizer {
 
-  max-width: 40em;
-  width: 45%;
+  max-width: 90%;
+  width: 90%;
   margin-bottom: $unit-l;
   padding: 1%;
 
@@ -28,9 +28,8 @@
 
   @include breakpoint(medium) {
 
-    max-width: 90%;
-    width: 90%;
-
+    max-width: 40em;
+    width: 45%;
   }
 
 
