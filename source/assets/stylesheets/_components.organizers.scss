@@ -26,6 +26,14 @@
 
   float: left;
 
+  @include breakpoint(medium) {
+
+    max-width: 90%;
+    width: 90%;
+
+  }
+
+
   &:last-child {
 
     margin-bottom: 0;
